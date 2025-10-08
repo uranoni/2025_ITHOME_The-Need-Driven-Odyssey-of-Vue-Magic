@@ -1,0 +1,73 @@
+{
+  "app": { "title": "飲料點單系統 (Router 版)", "header": "飲料點單系統 (Router 版)" },
+  "nav": { "order": "點餐之塔", "summary": "結算之室" },
+  "pages": {
+    "login": "登入",
+    "loginHint": "說明：若此使用者不存在將自動建立（密碼固定 123456）。使用者 roni 具備 admin 權限。",
+    "summary": "結算之室",
+    "orderDetail": "訂單詳情",
+    "currentOrders": "目前已送出的訂單",
+    "bulkImport": "祕書匯入訂單（貼上 JSON 陣列）",
+    "stats": "統計結果"
+  },
+  "fields": {
+    "name": "姓名",
+    "note": "備註",
+    "drink": "飲料",
+    "sweetness": "甜度",
+    "ice": "冰量",
+    "count": "數量",
+    "totalCups": "總杯數",
+    "createdAt": "建立時間",
+    "updatedAt": "更新時間",
+    "username": "使用者名稱",
+    "password": "密碼"
+  },
+  "steps": {
+    "pickDrink": "步驟 1：選擇飲料",
+    "pickSweetness": "步驟 2：選擇甜度",
+    "pickIce": "步驟 3：選擇冰量"
+  },
+  "actions": {
+    "reload": "重新載入",
+    "applyToBackend": "套用到後端",
+    "reloadFromBackend": "重新載入（後端）",
+    "backToOrder": "回到點餐",
+    "submit": "送出",
+    "login": "登入",
+    "detail": "詳情",
+    "edit": "編輯",
+    "collapse": "收合",
+    "delete": "刪除",
+    "save": "儲存",
+    "cancel": "取消"
+  },
+  "placeholders": {
+    "name": "請輸入你的名字",
+    "note": "例如：三點拿、少冰",
+    "username": "例如 corgi / roni",
+    "password": "預設 123456"
+  },
+  "common": {
+    "loading": "載入中...",
+    "required": "必填",
+    "optional": "選填"
+  },
+  "validations": {
+    "pickSweetness": "請選擇甜度",
+    "noSugarForMatcha": "抹茶拿鐵不可去糖",
+    "pickIce": "請選擇冰量",
+    "chocolateHotOnly": "巧克力僅能熱飲",
+    "nameRequired": "姓名必填",
+    "nameMin": "至少 2 個字",
+    "nameMax": "最多 20 個字",
+    "noteMax": "備註最多 50 個字",
+    "noteBlacklist": "備註含禁用詞",
+    "pickDrink": "請選擇飲料",
+    "menuRuleMismatch": "選項與菜單規則不符",
+    "dailyLimit": "同一位使用者今日最多 3 杯",
+    "businessHours": "非營業時間（08:00–22:00）不可送單"
+  }
+}
+
+
