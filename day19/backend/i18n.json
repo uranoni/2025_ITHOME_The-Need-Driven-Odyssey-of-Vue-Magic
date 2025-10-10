@@ -1,0 +1,63 @@
+{
+  "languages": [
+    "zh-TW",
+    "en-US",
+    "ja-JP"
+  ],
+  "drinks": {
+    "紅茶": {
+      "zh-TW": "紅茶",
+      "en-US": "Black Tea",
+      "ja-JP": "こうちゃ"
+    },
+    "綠茶": {
+      "zh-TW": "綠茶",
+      "en-US": "Green Tea",
+      "ja-JP": "りょくちゃ"
+    },
+    "巧克力": {
+      "zh-TW": "可可",
+      "en-US": "Chocolate",
+      "ja-JP": "チョコレート"
+    },
+    "抹茶拿鐵": {
+      "zh-TW": "抹茶拿鐵",
+      "en-US": "Matcha Latte",
+      "ja-JP": "抹茶ラテ"
+    }
+  },
+  "sweetness": {
+    "正常甜": {
+      "zh-TW": "正常甜",
+      "en-US": "Regular Sugar",
+      "ja-JP": "普通糖"
+    },
+    "少糖": {
+      "zh-TW": "少糖",
+      "en-US": "Less Sugar",
+      "ja-JP": "少なめ"
+    },
+    "去糖": {
+      "zh-TW": "去糖",
+      "en-US": "No Sugar",
+      "ja-JP": "無糖"
+    }
+  },
+  "ice": {
+    "正常冰": {
+      "zh-TW": "正常冰",
+      "en-US": "Regular Ice",
+      "ja-JP": "普通氷"
+    },
+    "去冰": {
+      "zh-TW": "去冰",
+      "en-US": "Less Ice",
+      "ja-JP": "氷少なめ"
+    },
+    "熱飲": {
+      "zh-TW": "熱飲",
+      "en-US": "Hot",
+      "ja-JP": "ホット"
+    }
+  }
+}

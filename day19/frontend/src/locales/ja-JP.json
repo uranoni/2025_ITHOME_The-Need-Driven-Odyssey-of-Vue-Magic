@@ -1,0 +1,73 @@
+{
+  "app": { "title": "ドリンク注文システム（ルーター版）", "header": "ドリンク注文システム（ルーター版）" },
+  "nav": { "order": "注文の塔", "summary": "精算の間" },
+  "pages": {
+    "login": "ログイン",
+    "loginHint": "ユーザーが存在しない場合は作成されます（パスワード 123456）。roni は管理者です。",
+    "summary": "精算の間",
+    "orderDetail": "注文詳細",
+    "currentOrders": "送信済みの注文",
+    "bulkImport": "秘書インポート（JSON 配列を貼り付け）",
+    "stats": "統計"
+  },
+  "fields": {
+    "name": "名前",
+    "note": "備考",
+    "drink": "ドリンク",
+    "sweetness": "甘さ",
+    "ice": "氷",
+    "count": "数量",
+    "totalCups": "合計杯数",
+    "createdAt": "作成日時",
+    "updatedAt": "更新日時",
+    "username": "ユーザー名",
+    "password": "パスワード"
+  },
+  "steps": {
+    "pickDrink": "ステップ1：ドリンクを選ぶ",
+    "pickSweetness": "ステップ2：甘さを選ぶ",
+    "pickIce": "ステップ3：氷を選ぶ"
+  },
+  "actions": {
+    "reload": "再読み込み",
+    "applyToBackend": "バックエンドに適用",
+    "reloadFromBackend": "（バックエンド）再読み込み",
+    "backToOrder": "注文に戻る",
+    "submit": "送信",
+    "login": "ログイン",
+    "detail": "詳細",
+    "edit": "編集",
+    "collapse": "折りたたむ",
+    "delete": "削除",
+    "save": "保存",
+    "cancel": "キャンセル"
+  },
+  "placeholders": {
+    "name": "お名前を入力してください",
+    "note": "例：15時受け取り、氷少なめ",
+    "username": "例：corgi / roni",
+    "password": "デフォルト 123456"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "required": "必須",
+    "optional": "任意"
+  },
+  "validations": {
+    "pickSweetness": "甘さを選択してください",
+    "noSugarForMatcha": "抹茶ラテは無糖不可",
+    "pickIce": "氷を選択してください",
+    "chocolateHotOnly": "チョコレートはホットのみ",
+    "nameRequired": "名前は必須です",
+    "nameMin": "2文字以上",
+    "nameMax": "20文字以内",
+    "noteMax": "備考は最大50文字",
+    "noteBlacklist": "備考に禁止語があります",
+    "pickDrink": "ドリンクを選択してください",
+    "menuRuleMismatch": "選択がメニュールールに違反しています",
+    "dailyLimit": "1日一人3杯まで",
+    "businessHours": "営業時間（08:00–22:00）外は注文不可"
+  }
+}
+
+

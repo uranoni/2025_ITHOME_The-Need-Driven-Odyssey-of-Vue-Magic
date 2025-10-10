@@ -1,0 +1,36 @@
+[
+  {
+    "username": "roni",
+    "password": "123456",
+    "role": "admin",
+    "token": "cm9uaQ==",
+    "preferredLocale": "zh-TW"
+  },
+  {
+    "username": "kevin",
+    "password": "123456",
+    "role": "user",
+    "token": "a2V2aW4="
+  },
+  {
+    "username": "corgi",
+    "password": "123456",
+    "role": "user",
+    "token": "Y29yZ2k=",
+    "preferredLocale": "ja-JP"
+  },
+  {
+    "username": "test",
+    "password": "123456",
+    "role": "user",
+    "token": "dGVzdA==",
+    "preferredLocale": "zh-TW"
+  },
+  {
+    "username": "Kevin",
+    "password": "123456",
+    "role": "user",
+    "token": "S2V2aW4=",
+    "preferredLocale": "zh-TW"
+  }
+]
