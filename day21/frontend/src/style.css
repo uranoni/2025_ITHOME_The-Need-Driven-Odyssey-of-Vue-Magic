@@ -1,0 +1,354 @@
+/* CSS 設計 Token 系統 - Light 預設設計 token */
+:root {
+  /* Brand */
+  --color-primary: #111827;   /* 主色（按鈕 / 強調） */
+  --color-secondary: #3b82f6; /* 輔色（次要按鈕 / 高亮） */
+
+  /* Text */
+  --text-primary: #111111;
+  --text-secondary: #4b5563;
+
+  /* Surface / Border */
+  --bg-page: #ffffff;
+  --bg-card: #ffffff;
+  --border-color: #e5e7eb;
+
+  /* 通用半徑/陰影/轉場 */
+  --radius-xl: 14px;
+  --shadow-lg: 0 24px 80px rgba(0,0,0,.12);
+  --transition-fast: .16s ease;
+}
+
+/* Dark 主題覆寫 - 高對比度暗色系 */
+[data-theme="dark"] {
+  --color-primary: #ffffff;    /* 主色改為純白色，提高對比度 */
+  --color-secondary: #3b82f6;  /* 輔色保持藍色，但使用更亮的版本 */
+
+  --text-primary: #ffffff;     /* 主要文字改為純白色，確保最佳可讀性 */
+  --text-secondary: #d1d5db;   /* 次要文字使用更亮的灰色，提高可讀性 */
+
+  --bg-page: #0f0f0f;          /* 頁面背景改為更深的黑色，提高對比度 */
+  --bg-card: #1a1a1a;          /* 卡片背景使用深灰色，與頁面背景形成對比 */
+  --border-color: #374151;     /* 邊框顏色調整為中等灰色，保持可見性 */
+
+  --shadow-lg: 0 24px 80px rgba(0,0,0,.8);
+}
+
+/* 重置基本樣式 */
+* { 
+  box-sizing: border-box; 
+}
+
+body { 
+  margin: 0; 
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans';
+  background: var(--bg-page);
+  color: var(--text-primary);
+}
+
+.i18n-note { 
+  font-size: 12px; 
+  color: var(--text-secondary); 
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* 全域基礎樣式 - 使用設計 token */
+.card { 
+  background: var(--bg-card); 
+  border: 1px solid var(--border-color); 
+  border-radius: var(--radius-xl); 
+  box-shadow: var(--shadow-lg); 
+}
+
+.btn { 
+  background: var(--bg-card); 
+  color: var(--text-primary); 
+  border: 1px solid var(--border-color); 
+  border-radius: 10px; 
+  transition: var(--transition-fast);
+}
+
+/* 暗色模式下的按鈕優化 */
+[data-theme="dark"] .btn {
+  background: #2a2a2a !important;
+  color: #ffffff !important;
+  border-color: #4a4a4a !important;
+}
+
+[data-theme="dark"] .btn:hover {
+  background: #3a3a3a !important;
+  border-color: #6a6a6a !important;
+}
+
+.btn.primary { 
+  background: var(--color-primary); 
+  color: white; 
+  border-color: var(--color-primary); 
+}
+
+.btn.secondary { 
+  background: var(--color-secondary); 
+  color: white; 
+  border-color: var(--color-secondary); 
+}
+
+/* 暗色模式下的 primary 和 secondary 按鈕 */
+[data-theme="dark"] .btn.primary {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border-color: #ffffff !important;
+}
+
+[data-theme="dark"] .btn.primary:hover {
+  background: #e0e0e0 !important;
+  border-color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .btn.secondary {
+  background: #3b82f6 !important;
+  color: #ffffff !important;
+  border-color: #3b82f6 !important;
+}
+
+[data-theme="dark"] .btn.secondary:hover {
+  background: #2563eb !important;
+  border-color: #2563eb !important;
+}
+
+a { 
+  color: var(--color-secondary); 
+}
+
+/* Day4/Day5 共用樣式 - 重構為使用變數 */
+.block { 
+  padding: 8px; 
+  border: 1px solid var(--border-color); 
+  border-radius: 8px; 
+  margin: 10px 0; 
+  background: var(--bg-card); 
+}
+
+.invalid { 
+  border-color: #e57373 !important; 
+  background: #fff5f5 !important; 
+}
+
+.complete { 
+  border-color: #66bb6a !important; 
+  background: #f3fff3 !important; 
+}
+
+/* 暗色模式下的驗證狀態樣式 */
+[data-theme="dark"] .invalid {
+  border-color: #e57373 !important;
+  background: #2d1b1b !important;
+}
+
+[data-theme="dark"] .complete {
+  border-color: #66bb6a !important;
+  background: #1b2d1b !important;
+}
+
+.hint { 
+  font-size: 12px; 
+  color: #c62828; 
+  margin-top: 4px; 
+}
+
+.submit { 
+  padding: 8px 12px; 
+  border-radius: 6px; 
+  border: 1px solid var(--border-color); 
+  margin: 8px 0; 
+  cursor: pointer; 
+  background: var(--bg-card);
+  color: var(--text-primary);
+}
+
+.submit.enabled { 
+  background: var(--color-primary); 
+  color: white; 
+  border-color: var(--color-primary); 
+}
+
+.submit.disabled { 
+  background: var(--bg-page); 
+  color: var(--text-secondary); 
+  cursor: not-allowed; 
+}
+
+.list { 
+  margin-top: 14px; 
+}
+
+.order { 
+  border: 1px solid var(--border-color); 
+  border-radius: 8px; 
+  padding: 8px; 
+  margin: 8px 0; 
+  background: var(--bg-card); 
+}
+
+.row { 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 8px; 
+}
+
+.col { 
+  display: flex; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 6px; 
+}
+
+.idx { 
+  color: var(--text-secondary); 
+  width: 24px; 
+  text-align: right; 
+}
+
+.name { 
+  font-weight: 600; 
+  margin-right: 6px; 
+  color: var(--text-primary);
+}
+
+.pill { 
+  padding: 2px 8px; 
+  border-radius: 9999px; 
+  border: 1px solid var(--border-color); 
+  font-size: 12px; 
+  background: var(--bg-page);
+  color: var(--text-secondary);
+}
+
+.is-ice { 
+  background: #e3f2fd; 
+  border-color: #90caf9; 
+}
+
+.is-noice { 
+  background: #e8f5e9; 
+  border-color: #a5d6a7; 
+}
+
+.is-sugar { 
+  background: #fff3e0; 
+  border-color: #ffcc80; 
+}
+
+.is-nosugar { 
+  background: #fce4ec; 
+  border-color: #f48fb1; 
+}
+
+.note { 
+  color: var(--text-secondary); 
+  font-size: 12px; 
+}
+
+.actions { 
+  display: inline-flex; 
+  gap: 6px; 
+}
+
+.btn-sm { 
+  padding: 2px 8px; 
+  font-size: 12px; 
+}
+
+.btn.del { 
+  border-color: #e57373; 
+  color: #e57373; 
+}
+
+.btn.del:hover { 
+  background: #ffeef0; 
+}
+
+.edit-card { 
+  margin-top: 8px; 
+  border: 1px dashed var(--border-color); 
+  border-radius: 8px; 
+  padding: 8px; 
+  background: var(--bg-page); 
+}
+
+.edit-row { 
+  display: flex; 
+  gap: 8px; 
+  flex-wrap: wrap; 
+  margin-bottom: 8px; 
+}
+
+.edit-grid { 
+  display: grid; 
+  grid-template-columns: repeat(3, minmax(160px, 1fr)); 
+  gap: 8px; 
+}
+
+.edit-actions { 
+  display: inline-flex; 
+  gap: 8px; 
+}
+
+.stats { 
+  margin-top: 16px; 
+}
+
+.table { 
+  border-collapse: collapse; 
+  width: 100%; 
+}
+
+.table th, .table td { 
+  border: 1px solid var(--border-color); 
+  padding: 6px 8px; 
+  text-align: left; 
+}
+
+.table thead { 
+  background: var(--bg-page); 
+}
+
+.qty { 
+  text-align: right; 
+  font-variant-numeric: tabular-nums; 
+}
+
+.fade-enter-active, .fade-leave-active { 
+  transition: opacity 0.18s ease; 
+}
+
+.fade-enter-from, .fade-leave-to { 
+  opacity: 0; 
+}
+
+/* API 狀態樣式 */
+.error-message {
+  background: #ffeef0;
+  border: 1px solid #e57373;
+  color: #c62828;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loading-message {
+  background: #e3f2fd;
+  border: 1px solid #90caf9;
+  color: #1565c0;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px 0;
+  text-align: center;
+}

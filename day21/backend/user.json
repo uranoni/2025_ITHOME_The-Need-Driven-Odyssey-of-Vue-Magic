@@ -1,0 +1,103 @@
+[
+  {
+    "username": "roni",
+    "password": "123456",
+    "role": "admin",
+    "token": "cm9uaQ==",
+    "preferredLocale": "zh-TW",
+    "age": 30,
+    "job": "學生",
+    "createdAt": "2025-10-01T08:00:00.000Z"
+  },
+  {
+    "username": "kevin",
+    "password": "123456",
+    "role": "user",
+    "token": "a2V2aW4=",
+    "age": 22,
+    "job": "學生",
+    "createdAt": "2025-10-02T10:30:00.000Z"
+  },
+  {
+    "username": "corgi",
+    "password": "123456",
+    "role": "user",
+    "token": "Y29yZ2k=",
+    "preferredLocale": "ja-JP",
+    "age": 31,
+    "job": "學生",
+    "createdAt": "2025-10-03T14:15:00.000Z"
+  },
+  {
+    "username": "test",
+    "password": "123456",
+    "role": "user",
+    "token": "dGVzdA==",
+    "preferredLocale": "zh-TW",
+    "age": 30,
+    "job": "業務",
+    "createdAt": "2025-10-04T09:45:00.000Z"
+  },
+  {
+    "username": "Kevin",
+    "password": "123456",
+    "role": "user",
+    "token": "S2V2aW4=",
+    "preferredLocale": "zh-TW",
+    "age": 19,
+    "job": "學生",
+    "createdAt": "2025-10-05T16:20:00.000Z"
+  },
+  {
+    "username": "alice",
+    "password": "123456",
+    "role": "user",
+    "token": "YWxpY2U=",
+    "age": 26,
+    "job": "工程師",
+    "createdAt": "2025-10-06T11:30:00.000Z"
+  },
+  {
+    "username": "bob",
+    "password": "123456",
+    "role": "user",
+    "token": "Ym9i",
+    "age": 35,
+    "job": "經理",
+    "createdAt": "2025-10-07T13:45:00.000Z"
+  },
+  {
+    "username": "charlie",
+    "password": "123456",
+    "role": "user",
+    "token": "Y2hhcmxpZQ==",
+    "age": 23,
+    "job": "設計師",
+    "createdAt": "2025-10-08T15:10:00.000Z"
+  },
+  {
+    "username": "diana",
+    "password": "123456",
+    "role": "user",
+    "token": "ZGlhbmE=",
+    "age": 29,
+    "job": "業務",
+    "createdAt": "2025-10-09T12:00:00.000Z"
+  },
+  {
+    "username": "eve",
+    "password": "123456",
+    "role": "user",
+    "token": "ZXZl",
+    "age": 31,
+    "job": "工程師",
+    "createdAt": "2025-10-10T10:15:00.000Z"
+  },
+  {
+    "username": "user02",
+    "password": "123456",
+    "role": "user",
+    "token": "dXNlcjAy",
+    "preferredLocale": "zh-TW"
+  }
+]

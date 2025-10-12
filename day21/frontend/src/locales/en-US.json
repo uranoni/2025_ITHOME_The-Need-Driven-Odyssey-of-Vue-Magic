@@ -1,0 +1,73 @@
+{
+  "app": { "title": "Drink Ordering System (Router)", "header": "Drink Ordering System (Router)" },
+  "nav": { "order": "Order Tower", "summary": "Settlement Room" },
+  "pages": {
+    "login": "Login",
+    "loginHint": "If user does not exist, it will be created (password 123456). User roni has admin role.",
+    "summary": "Settlement Room",
+    "orderDetail": "Order Detail",
+    "currentOrders": "Submitted Orders",
+    "bulkImport": "Secretary Import (paste JSON array)",
+    "stats": "Statistics"
+  },
+  "fields": {
+    "name": "Name",
+    "note": "Note",
+    "drink": "Drink",
+    "sweetness": "Sweetness",
+    "ice": "Ice",
+    "count": "Count",
+    "totalCups": "Total Cups",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "username": "Username",
+    "password": "Password"
+  },
+  "steps": {
+    "pickDrink": "Step 1: Choose Drink",
+    "pickSweetness": "Step 2: Choose Sweetness",
+    "pickIce": "Step 3: Choose Ice"
+  },
+  "actions": {
+    "reload": "Reload",
+    "applyToBackend": "Apply to Backend",
+    "reloadFromBackend": "Reload (Backend)",
+    "backToOrder": "Back to Order",
+    "submit": "Submit",
+    "login": "Login",
+    "detail": "Detail",
+    "edit": "Edit",
+    "collapse": "Collapse",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "placeholders": {
+    "name": "Enter your name",
+    "note": "e.g. pick at 3pm, less ice",
+    "username": "e.g. corgi / roni",
+    "password": "default 123456"
+  },
+  "common": {
+    "loading": "Loading...",
+    "required": "Required",
+    "optional": "Optional"
+  },
+  "validations": {
+    "pickSweetness": "Please choose sweetness",
+    "noSugarForMatcha": "Matcha Latte cannot be sugar-free",
+    "pickIce": "Please choose ice",
+    "chocolateHotOnly": "Chocolate is hot only",
+    "nameRequired": "Name is required",
+    "nameMin": "At least 2 characters",
+    "nameMax": "At most 20 characters",
+    "noteMax": "Note at most 50 characters",
+    "noteBlacklist": "Note contains forbidden terms",
+    "pickDrink": "Please choose drink",
+    "menuRuleMismatch": "Selection violates menu rules",
+    "dailyLimit": "Max 3 cups per person per day",
+    "businessHours": "Ordering not allowed outside 08:00–22:00"
+  }
+}
+
+
