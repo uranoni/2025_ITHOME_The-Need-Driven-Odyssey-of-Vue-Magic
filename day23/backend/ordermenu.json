@@ -1,0 +1,25 @@
+{
+  "drinks": ["紅茶", "綠茶", "巧克力", "抹茶拿鐵"],
+  "sweetnessOptions": ["正常甜", "少糖", "去糖"],
+  "iceOptions": ["正常冰", "去冰", "熱飲"],
+  "rules": {
+    "紅茶": {
+      "allowedSweetness": ["正常甜", "去糖"],
+      "allowedIce": ["正常冰", "去冰", "熱飲"]
+    },
+    "綠茶": {
+      "allowedSweetness": ["正常甜", "去糖"],
+      "allowedIce": ["正常冰", "去冰"]
+    },
+    "巧克力": {
+      "allowedSweetness": ["正常甜", "少糖"],
+      "allowedIce": ["熱飲"]
+    },
+    "抹茶拿鐵": {
+      "allowedSweetness": ["正常甜"],
+      "allowedIce": ["正常冰", "去冰", "熱飲"]
+    }
+  }
+}
+
+

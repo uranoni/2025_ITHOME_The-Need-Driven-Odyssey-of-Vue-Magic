@@ -1,0 +1,595 @@
+{
+  "metadata": {
+    "currency": "TWD",
+    "locale": "zh-TW",
+    "version": "2025-10-14"
+  },
+  "categories": [
+    {
+      "name": "找好茶",
+      "items": [
+        {
+          "id": "茉莉綠茶",
+          "name": "茉莉綠茶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 25
+            },
+            {
+              "name": "L",
+              "price": 30
+            }
+          ]
+        },
+        {
+          "id": "奶茶",
+          "name": "奶茶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "阿薩姆紅茶",
+          "name": "阿薩姆紅茶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 25
+            },
+            {
+              "name": "L",
+              "price": 30
+            }
+          ]
+        },
+        {
+          "id": "奶綠",
+          "name": "奶綠",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "四季春青茶",
+          "name": "四季春青茶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 25
+            },
+            {
+              "name": "L",
+              "price": 30
+            }
+          ]
+        },
+        {
+          "id": "烏龍奶",
+          "name": "烏龍奶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "黃金烏龍",
+          "name": "黃金烏龍",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 25
+            },
+            {
+              "name": "L",
+              "price": 30
+            }
+          ]
+        },
+        {
+          "id": "珍珠奶茶",
+          "name": "珍珠奶茶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "1號(四季春珍波椰)",
+          "name": "1號(四季春珍波椰)",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 40
+            }
+          ]
+        },
+        {
+          "id": "珍珠奶綠",
+          "name": "珍珠奶綠",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "波霸綠/紅",
+          "name": "波霸綠/紅",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 40
+            }
+          ]
+        },
+        {
+          "id": "波霸奶茶",
+          "name": "波霸奶茶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "微檸檬紅/青",
+          "name": "微檸檬紅/青",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 40
+            }
+          ]
+        },
+        {
+          "id": "波霸奶綠",
+          "name": "波霸奶綠",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "檸檬綠/青",
+          "name": "檸檬綠/青",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "燕麥奶茶",
+          "name": "燕麥奶茶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "梅の緑",
+          "name": "梅の緑",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "紅茶瑪奇朵(鮮奶油)",
+          "name": "紅茶瑪奇朵(鮮奶油)",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "8冰綠",
+          "name": "8冰綠",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "椰果奶茶",
+          "name": "椰果奶茶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "多多綠",
+          "name": "多多綠",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "椰果奶綠",
+          "name": "椰果奶綠",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "冰淇淋紅茶",
+          "name": "冰淇淋紅茶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "阿華田",
+          "name": "阿華田",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ]
+        },
+        {
+          "id": "柚子紅",
+          "name": "柚子紅",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "冰淇淋奶茶",
+          "name": "冰淇淋奶茶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "id": "旺來紅",
+          "name": "旺來紅",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "找新鮮(無咖啡因)",
+      "items": [
+        {
+          "id": "45",
+          "name": "45",
+          "sizes": [
+            {
+              "name": "default",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "id": "8冰茶",
+          "name": "8冰茶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "柚子茶",
+          "name": "柚子茶",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 50
+            }
+          ]
+        },
+        {
+          "id": "紅茶拿鐵",
+          "name": "紅茶拿鐵",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "id": "檸檬汁",
+          "name": "檸檬汁",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "id": "珍珠紅茶拿鐵",
+          "name": "珍珠紅茶拿鐵",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "id": "45",
+          "name": "45",
+          "sizes": [
+            {
+              "name": "default",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "id": "波霸紅茶拿鐵",
+          "name": "波霸紅茶拿鐵",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "id": "金桔檸檬",
+          "name": "金桔檸檬",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "id": "燕麥紅茶拿鐵",
+          "name": "燕麥紅茶拿鐵",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "id": "檸檬梅汁",
+          "name": "檸檬梅汁",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "id": "阿華田拿鐵",
+          "name": "阿華田拿鐵",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 70
+            }
+          ]
+        },
+        {
+          "id": "檸檬多多",
+          "name": "檸檬多多",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 70
+            }
+          ]
+        },
+        {
+          "id": "冰淇淋紅茶拿鐵",
+          "name": "冰淇淋紅茶拿鐵",
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 70
+            }
+          ]
+        },
+        {
+          "id": "葡萄柚多多 (季節限定:4-8月、10-1月)50",
+          "name": "葡萄柚多多 (季節限定:4-8月、10-1月)50",
+          "sizes": [
+            {
+              "name": "default",
+              "price": 70
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
